@@ -1,31 +1,34 @@
 # InstaPlus
 
-Extra Instagram features for downloads, privacy, customization, and media tools.
+Extra Instagram features for downloads, privacy, customization and media management.
 
 ## About
 
-InstaPlus is a tweak project made to add useful extra features to Instagram while keeping the experience clean and practical.
+InstaPlus is an independent tweak for Instagram. I'm learning tweak development as I build this project. I use AI tools to help with research, coding and troubleshooting, and personally guide and test the features.
 
-I’m new to tweak development and still learning as I build. I sometimes use AI tools to help me learn, research, troubleshoot, and move faster, but the project is still guided, tested, and refined by me.
+## What's new in 1.0.4
+
+- **Smart Media Vault:** Store photos, videos and audio in an encrypted vault with a separate PIN and optional Face ID recovery.
+- **Vault media tools:** Video thumbnails, built-in video and audio players, audio repeat, duplicate detection, storage details, media information, multi-select, export and delete.
+- **Download destinations:** Choose iPhone, Vault or ask each time.
+- **Remember Scroll Position:** Return to your place in the Home feed during the same feed session.
+- **Story Viewer Search:** Find viewers more easily.
+- **Welcome guide:** New users can find InstaPlus Settings, review the user agreement and enable the tweak.
+- **Settings and support:** Improved settings layout and a quick link to support development.
+- **Release cleanup:** Simpler messages and less development-only logging in the production build.
 
 ## Features
 
-### Current / Stable
-- Download photos, videos, Stories, and Reels
-- Expand supported media
-- Reel media controls
-- Native Reel Auto-Advance
-- 90-second Story Music
-- Privacy and customization options
-- Settings cleanup and update checker
-
-### In Development / Testing
-- Reel and Story Frame Capture
-- Search Story Viewers
-- More advanced media tools
+- Download and expand supported posts, Stories and Reels.
+- Reel playback controls, including loop and auto-advance.
+- 90-second Story Music.
+- Message privacy, media tools and call confirmation.
+- Profile, feed, Story and Instants customization.
+- Settings search, modes, backup and restore, compatibility checks and an update checker.
 
 ## Screenshots
 
+Existing screenshots show the interface from earlier builds.
 
 ### InstaPlus Settings
 ![InstaPlus Settings](assets/settings-main.jpeg)
@@ -42,31 +45,32 @@ I’m new to tweak development and still learning as I build. I sometimes use AI
 ### 90-Second Story Music
 ![90 Second Story Music](assets/story-music-90sec.jpeg)
 
-### Frame Capture
-![Frame Capture](assets/frame-capture.jpeg)
-
 ### Search Story Viewers
 ![Search Story Viewers](assets/story-viewer-search.jpeg)
 
 ## Compatibility
 
-- Instagram 438.0.0------> Newest( 11/20/26) Some feature MAYNOT work on the newest version. It's always best to stay to the LOWEST version possible. 
-- iOS 16.0 or later
+- Tested target for 1.0.4: Instagram **438.0.0** on iOS 27.0.
+- The project targets iOS 16 or later; other iOS and Instagram versions have not all been tested.
+- Newer Instagram builds may change internal APIs and break individual features.
+- The 1.0.4 package is an ARM64, rootful-layout DEB intended for compatible IPA injection tools. It is not a native rootless jailbreak package.
 
 ## Installation
 
-Download the latest `.deb` from the Releases section and inject it into a compatible Instagram IPA using your preferred signing tool.
+1. Download the latest available DEB from [Releases](../../releases).
+2. Inject it into a compatible Instagram IPA using your preferred signing tool.
+3. Open Instagram and follow the welcome guide.
+4. Go to Profile > Menu > InstaPlus Settings, accept the agreement and enable InstaPlus if needed.
 
-## Releases
-
-The latest public release is available in the [Releases](../../releases) section.
+Keep copies of important media outside the Vault. Removing the app or its data may remove your saved media.
 
 ## Support
 
 Developer: **4nil5en**  
 Support email: **dev.4nil5en.help+ins@gmail.com**
 
-## Notes
+Bug reports and feature suggestions are welcome. Include your Instagram version, iOS version and InstaPlus version when reporting an issue.
 
-This project is actively being improved. Some features may still be experimental until they are fully tested and confirmed stable.
-with that said, please report any bugs and feature suggestion!! It's always welcomed!
+## Disclaimer
+
+InstaPlus is unofficial and is not affiliated with Instagram or Meta. Modified apps can cause compatibility issues, data loss or account restrictions. Use at your own risk.
